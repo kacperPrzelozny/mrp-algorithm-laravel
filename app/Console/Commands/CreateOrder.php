@@ -20,7 +20,7 @@ class CreateOrder extends Command
      *
      * @var string
      */
-    protected $description = 'Command description';
+    protected $description = 'Command that inserts a new order and calculate MRP for the item';
 
     /**
      * Execute the console command.
